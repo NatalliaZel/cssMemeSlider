@@ -40,7 +40,6 @@ h2 {
   font-weight: 400;
   font-style: normal;
 }
-
 /**********************/
 
 body {
@@ -77,6 +76,11 @@ input[name="control"] {
   transform: translateX(0%);
 }
 
+#r1:active ~ .slider-bottom .slider-labels .slider-label-1 .slider-span-1 {
+  background-color: #550b51;
+  border: 0.15rem solid #550b51;
+}
+
 #r2:checked ~ .slider-images .slider-img-1 {
   transform: translateX(-100%);
 }
@@ -96,6 +100,12 @@ input[name="control"] {
 #r2:checked ~ .slider-bottom .slider-content .text-2 {
   transform: translateX(-100%);
 }
+
+#r2:active ~ .slider-bottom .slider-labels .slider-label-2 .slider-span-2 {
+  background-color: #550b51;
+  border: 0.15rem solid #550b51;
+}
+
 #r3:checked ~ .slider-images .slider-img-1 {
   transform: translateX(-200%);
 }
@@ -121,6 +131,11 @@ input[name="control"] {
 
 #r3:checked ~ .slider-bottom .slider-content .text-3 {
   transform: translateX(-200%);
+}
+
+#r3:active ~ .slider-bottom .slider-labels .slider-label-3 .slider-span-3 {
+  background-color: #550b51;
+  border: 0.15rem solid #550b51;
 }
 
 #r4:checked ~ .slider-images .slider-img-1 {
@@ -157,6 +172,11 @@ input[name="control"] {
 
 #r4:checked ~ .slider-bottom .slider-content .text-4 {
   transform: translateX(-300%);
+}
+
+#r4:active ~ .slider-bottom .slider-labels .slider-label-4 .slider-span-4 {
+  background-color: #550b51;
+  border: 0.15rem solid #550b51;
 }
 
 .slider-images {
